@@ -1,0 +1,192 @@
+{
+	"masthead": {
+		"holdings": "In possesso",
+		"balance": "{{balance}} Ethereum nello Smart-contract"
+	},
+	"menu": {
+		"exchange" : [
+			"Exchange",
+			"Vendi & Preleva",
+			"Trasferimento",
+			"In possesso"
+		],
+		"staking": "Staking & Masternode",
+		"news": "News",
+		"chat": "Chat",
+		"explorer": "Explorer"
+	},
+	"notifications": {
+		"loading": "Caricamento...",
+		"cancelled": "La transazione è stata annullata dall'utente",
+		"error": "Si è verificato un errore",
+		"withdrawalSubmitted": "La richiesta di prelievo è stata trasmessa alla blockchain. Attendendo la conferma..", 
+		"sellSubmitted": "L'ordine di vendita è stato trasmesso alla blockchain. Attendendo la conferma..",
+		"sellConfirmed": "Il tuo ordine di vendita di P3D tokens è stato confermato dalla blockchain! Hai venduto con successo {{tokens}} P3D tokens per {{eth}} ETH.",
+		"sellExternal": "Qualcuno ha appena venduto {{tokens}} P3D tokens per {{eth}} ETH.",
+		"buySubmitted": "L'ordine di acquisto è stato trasmesso alla blockchain. Attendendo la conferma..",
+		"buyConfirmed": "Il tuo ordine di acquisto di P3D tokens è stato confermato dalla blockchain! Hai acquistato con successo {{tokens}} P3D tokens per {{eth}} ETH.",
+		"buyExternal": "Qualcuno ha appena acquistato {{tokens}} P3D tokens per {{eth}} ETH.",
+		"transferSubmitted": "L'ordine di trasferimento è stato trasmesso alla blockchain. Attendendo la conferma..",
+		"transferConfirmed": "Il tuo ordine di trasferimento di P3D tokens è stato confermato dalla blockchain! Hai trasferito con successo {{tokens}} P3D tokens.",
+		"transferExternal": "Qualcuno ha trasferito {{tokens}} P3D tokens."
+	},
+	"footer": "Questa è una piattaforma di intrattenimento, non una piattaforma di investimento; non stai divertendo?",
+	"pages": {
+		"purchase": {
+			"title": "Acquista tokens",
+			"item": {
+				"buy": {
+					"title": "Compra P3D tokens",
+					"spend": "costo in Ethereum",
+					"approx": "Approssimativamente {{amount}} P3D tokens.",
+					"invalid": "Inserisci una cifra valida.",
+					"empty": "Inserisci una cifra per vedere immediatamente la stima del prezzo.",
+					"button": "Acquista.",
+					"hint": "1). Più alto imposti il valore del gas che mandi, più velocemente gli ETH miners raccoglieranno e confermeranno la tua transazione."
+				},
+				"reinvest": {
+					"title": "Reinvesti i dividendi maturati",
+					"button": "Reinvesti!"
+				},
+				"recent": {
+					"title": "Ordini recenti di acquisto",
+					"date": "Data.",
+					"tx": "Tx-ID.",
+					"address": "Indirizzo"
+				}
+			}
+		},
+		"sell": {
+			"title": "Vendi tokens",
+			"item": {
+				"sell": {
+					"title": "Vendi P3D tokens",
+					"spend": "Tokens da vendere",
+					"approx": "Approssimativamente {{amount}} ETH.",
+					"invalid": "Inserisci una cifra valida.",
+					"empty": "Inserisci una cifra per vedere immediatamente la stima del prezzo.",
+					"button": "Vendi!",
+					"all": "Tutto",
+					"hint": "1). Più alto imposti il valore del gas che mandi, più velocemente gli ETH miners raccoglieranno e confermeranno la tua transazione.",
+					"warning": "Sei sicuro di voler vendere i tuoi tokens? Vendere significa ammettere a te stesso ed agli altri che le tue mani non sono più forti abbastanza per giocare. Il 10% di tasse sulla tua vendita sarà però sicuramente apprezzato dagli altri possessori.",
+					"confirm": "SI, HO LE MANI DEBOLI.",
+					"deny": "NO, HO TROVATO NUOVA FORZA."
+				},
+				"withdraw": {
+					"title": "dividendi maturati",
+					"button": "Ritira",
+					"reinvest": "Reinvesti",
+					"warning": "Vorresti ritirare i tuoi dividendi? Non preoccuparti, non ci sono costi, l'Eth è già come fosse tuo. Ma se ti stai divertendo (e sei contento di come stanno andando le cose) potresti voler ammettere la pazzia e provare la nostra funzione di reinvestimento. Più token significa che ottieni una quota maggiore di tutte le tasse che sono state pagate nello Smart-contract. È come se raddoppiassi l'investimento, potresti ottenere il doppio, o anche nulla.",
+					"confirm": "SI, DII AL ROBOT CHE È IL MIO GIORNO DI PAGA.",
+					"deny": "NO, MI PIACE COME STANNO ANDANDO LE COSE."
+				},
+				"recent": {
+					"title": "Ordini recenti di vendita",
+					"date": "Data.",
+					"tx": "Tx-ID.",
+					"address": "Indirizzo"
+				}
+			}
+		},
+		"transfer": {
+			"title": "Trasferisci tokens",
+			"item": {
+				"transfer": {
+					"title": "Trasferisci P3D tokens",
+					"spend": "Tokens da inviare",
+					"recipient": "Wallet del destinatario",
+					"invalid": "Indirizzo wallet non valido...",
+					"empty": "Ammontare di tokens invalido...",
+					"button": "Trasferisci",
+					"hint": " 1). Ricorda, c'è una commissione del 10% su tutti i token trasferiti <br> 2). I tuoi Dividendi Gauntlet verranno automaticamente ritirati dal tuo portafoglio eth al momento del trasferimento dei token. Non preoccuparti. 3) Più alto imposti il valore del gas che mandi, più velocemente gli ETH miners raccoglieranno e confermeranno la tua transazione."
+				},
+				"recent": {
+					"title": "ordini recenti di trasferimento",
+					"date": "Data.",
+					"tx": "Tx-ID.",
+					"from": "Da",
+					"to": "A"
+				}
+			}
+		},
+		"holdings": {
+			"title": "In possesso",
+			"item": {
+				"tokens": {
+					"title": "Tokens"
+				},
+				"rewards": {
+					"title": "Dividendi",
+					"reinvest": "(se reinvestiti)"
+				},
+				"portfolio": {
+					"title": "crescita Portfolio",
+					"description": "Il modulo grafico avanzato è attualmente in fase di sviluppo."
+				},
+				"actions": {
+					"buy": "Compra tokens",
+					"withdraw": "Ritira",
+					"sell": "Vendi tokens"
+				},
+				"configuration": {
+					"title": "Configurazione",
+					"description": "Le impostazioni di personalizzazione arriveranno presto qui, includendo la tanto richiesta modalità notte. Hai qualche caratteristica suggerita? <a href='https://discord.gg/wfG97Kt'> Per favore, passa dalla nostra piattaforma chat. </a>"
+				},
+				"recent": {
+					"title": "La mia cronologia transazioni",
+					"date": "Data.",
+					"tx": "Tx-ID.",
+					"event": "Evento"
+				}
+			}
+		},
+		"staking": {
+			"title": "Staking",
+			"item": {
+				"description": {
+					"title": "Masternodes...",
+					"columns": [
+						{
+							"title": "Espandi la tua Rete!",
+							"text": "Se nel tuo wallet ci sono 5 tokens, lo Smart-contract genera un link al tuo Masternode per te!<br><br> Ogni volta che qualcuno visita il sito tramite il tuo link unico, salverà il tuo Masternode in un cookie che traccerà tutti gli acquisti di P3D che farà, ora ed in futuro."
+						},
+						{
+							"title": "Cosa ne ricavo?",
+							"text": "<b>Ethereum!</b> Ogni volta che qualcuno acquista con il link del tuo Masternode, <strong>istantaneamente ricevi il 33% delle fees di acquisto che pagherebbero allo Smart-contract, in ETH</strong> - senza fare domande, senza problemi."
+						}
+					]
+				},
+				"masternode": {
+					"title": "Il link del mio Masternode",
+					"link": "Il link unico al tuo Masternode è...",
+					"pointers": "Puntatori generali per espandere la propria rete:",
+					"list": [
+						"Cerca di avvicinare i membri nelle comunità che conosci",
+						"Parla di powh.io sui forum nella tua lingua per il massimo potenziale.",
+						"Usa il <a href='https://powh.io/shill-kit.html'> shill-kit, progettato per far sì che le persone facciano clic sul tuo link!</a>",
+						"Sii onesto. Condividi il concetto su cui si basa PoWH e cosa ne pensi riguardo al progetto.",
+						"Non mentire o promettere rendita garantita.",
+						"Non spammare semplicemente il tuo link masternode. Parla invece del progetto.",
+						"Il mancato rispetto delle regole di cui sopra può comportare la sospensione del tuo masternode.",
+						"I requisiti per lo staking dal masternode può cambiare nel tempo, quindi assicurati di reinvestire i tuoi dividendi.",
+						"Nel caso volessi fare il furbo, usare il tuo link masternode non funziona."
+					]
+				},
+				"tracker": {
+					"title": "monitoraggio visite...",
+					"text": "visite totali al Masternode <br>(Non funziona ancora)"
+				},
+				"earnings": {
+					"text": "Dividendi maturati dal Masternode"
+				},
+				"recent": {
+					"title": "Conversioni del tuo Masternode",
+					"date": "Data.",
+					"tx": "Tx-ID.",
+					"address": "Indirizzo",
+					"profit": "Profitto"
+				}
+			}
+		}
+	} 
+}
